@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Day",
+          "type": "LIST_OF_DAYS"
+        }
+      ],
+      "intent": "DayIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
