@@ -18,8 +18,8 @@ function buildSpeechletResponse(title, output, repromptText, shouldEndSession) {
         },
         card: {
             type: 'Simple',
-            title: `SessionSpeechlet - ${title}`,
-            content: `SessionSpeechlet - ${output}`,
+            title: `Advent Calendar ${title}`,
+            content: `${output}`,
         },
         reprompt: {
             outputSpeech: {
@@ -83,7 +83,7 @@ function getDayMessage(intent, session, callback) {
              message='What does the coder decorate with a Christmas?... a Binary tree';
          }
          
-         speechOutput = "you selected day " + day + " Here's your daily message..." + message;
+         speechOutput = "You selected day: " + day + " Here's your daily message..." + message;
     }
     else
     {
