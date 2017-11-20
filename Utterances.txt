@@ -1,0 +1,4 @@
+DayIntent Open day {Day}
+DayIntent Open door {Day}
+DayIntent What's in door {Day}
+DayIntent Advent door {Day}
