@@ -1,5 +1,5 @@
 # Alexa-Advent-Calendar
-Advent calendar skill tutorial built for teaching kids to code
+Advent calendar skill tutorial built for teaching kids to code. This gives the basic template for a skill where you can ask Alexa to open each door of an advent calendar. The coding challenge for the young coders is to add a message for each day of the advent.
 
 I would recommend this tutorial as a starting point on Alexa skills introducing how to set up accounts on AWS and Amazon developer portal:
 https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
